@@ -10,7 +10,7 @@ typedef IloArray<IloNumVarArray> NumVar2d;
 typedef IloArray<NumVar2d> NumVar3d;
 typedef IloArray<NumVar3d> NumVar4d;
 
-
+// I'm adding an xample
 
 void Solver::solve_and_print() const {
 	const auto n = g.size();
